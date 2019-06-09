@@ -22,7 +22,10 @@ namespace Flight_control
     {
         public MainWindow()
         {
+            
             InitializeComponent();
         }
+
+
     }
 }
