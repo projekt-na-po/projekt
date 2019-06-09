@@ -19,7 +19,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Border.RenderTransform>
-                <Image HorizontalAlignment="Left" Height="80" Margin="9.2,61.2,0,0" VerticalAlignment="Top" Width="138"/>
+                <Image Height="100" VerticalAlignment="Top" Margin="27.2,64.2,29.6,0"/>
             </Border>
         </Border>
 
