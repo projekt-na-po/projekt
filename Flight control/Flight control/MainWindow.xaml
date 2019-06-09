@@ -19,9 +19,10 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Border.RenderTransform>
-                <Image Height="100" VerticalAlignment="Top" Margin="27.2,64.2,29.6,0"/>
+                <Image x:Name="Ikonka" Stretch="Fill" Margin="17.2,69.2,19.6,135.2" Source="mapa_rzek_polski.jpg"/>
             </Border>
         </Border>
+        <Image HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="119" Margin="21,160,0,0" Source="niemcy-mapa-satelitarna.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>
