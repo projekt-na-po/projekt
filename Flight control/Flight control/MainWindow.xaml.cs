@@ -42,5 +42,15 @@ namespace Flight_control
             var image = new BitmapImage(obrazek1);
             this.Radar.Background = new ImageBrush(image);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
