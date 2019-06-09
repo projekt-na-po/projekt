@@ -7,9 +7,21 @@
         mc:Ignorable="d"
         Title="Kontrola lotów" Height="600" Width="800">
     <Grid>
-        <Label Content="Kontrola lotów" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="351,10,0,0"/>
         <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.452,0.518" Margin="60,60,0,0"/>
-        <Label Content="Wybierz mapę&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="353,42,0,0"/>
+        <Label Content="Wybierz mapę&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,30,0,0"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="570" VerticalAlignment="Top" Width="160">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="1.2,1.2,-0.8,286.2" RenderTransformOrigin="0.5,0.5">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0.069"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Image HorizontalAlignment="Left" Height="80" Margin="9.2,61.2,0,0" VerticalAlignment="Top" Width="138"/>
+            </Border>
+        </Border>
 
     </Grid>
 </Window>
