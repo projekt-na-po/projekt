@@ -20,12 +20,27 @@ namespace Flight_control
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+
         public MainWindow()
         {
             
             InitializeComponent();
         }
 
+        private void Ikonka_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            var obrazek1 = new Uri("pack://application:,,,/mapa_rzek_polski.jpg");
+            var image = new BitmapImage(obrazek1);
+            this.Radar.Background = new ImageBrush(image);
 
+        }
+
+        private void Ikonka_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            var obrazek1 = new Uri("pack://application:,,,/niemcy-mapa-satelitarna.jpg");
+            var image = new BitmapImage(obrazek1);
+            this.Radar.Background = new ImageBrush(image);
+        }
     }
 }

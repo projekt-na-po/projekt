@@ -20,16 +20,19 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Border.RenderTransform>
-                <Image x:Name="Ikonka" Stretch="Fill" Margin="17.2,69.2,19.6,135.2" Source="mapa_rzek_polski.jpg" />
+                <Image x:Name="Ikonka" Stretch="Fill" Margin="17.2,69.2,19.6,135.2" Source="mapa_rzek_polski.jpg" MouseLeftButtonUp="Ikonka_MouseLeftButtonUp" ScrollViewer.CanContentScroll="True" />
             </Border>
         </Border>
-        <Image x:Name="Ikonka_2" HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="119" Margin="21,160,0,0" Source="niemcy-mapa-satelitarna.jpg" Stretch="Fill"/>
         <Grid x:Name="Radar" HorizontalAlignment="Left" Height="570" Margin="165,0,-0.4,0" VerticalAlignment="Top" Width="629" IsEnabled="False">
-            
+            <Grid.Background>
+                <ImageBrush/>
+            </Grid.Background>
+
             <Grid.DataContext>
                 <Properties:Resources/>
             </Grid.DataContext>
         </Grid>
+        <Image x:Name="Ikonka_2" HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="119" Margin="21,160,0,0" Source="niemcy-mapa-satelitarna.jpg" Stretch="Fill" MouseLeftButtonUp="Ikonka_2_MouseLeftButtonUp"/>
 
     </Grid>
 </Window>
